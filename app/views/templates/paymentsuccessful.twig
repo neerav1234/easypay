@@ -1,0 +1,29 @@
+{% extends "templates/base.twig" %}
+
+{% block title %} My Website home {% endblock %}
+
+{% block body %}
+
+
+
+{% if matched %}
+    
+  <div class="alert alert-success" role="alert">
+    Recharge Successful
+  </div>
+
+{% endif %}
+
+{% if not matched %}
+    
+    <div class="alert alert-danger" role="alert">
+      A simple danger alert—check it out!
+    </div>
+    
+{% endif %}
+
+
+
+
+{% endblock %}
+

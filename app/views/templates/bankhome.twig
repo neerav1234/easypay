@@ -1,0 +1,43 @@
+{% extends "templates/base.twig" %}
+
+{% block title %} My Website home {% endblock %}
+
+{% block body %}
+
+<div class="jumbotron">
+  <h1 class="display-4">Bank Home</h1>
+
+   <table class="table table-bordered table-dark">
+      <thead>
+          <tr>
+          <th scope="col">Account Number</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Balance</th>
+          {# <th scope="col">Transaction Time</th> #}
+          </tr>
+      </thead>
+    <tbody> 
+     
+      <tr>
+        <th scope="row">{{account.accountno}}</th>
+        <td> {{account.name}} </td>
+        <td>{{account.email}}</td>
+        <td> {{account.balance}} </td>
+      </tr>
+     
+    </tbody>
+    
+  </table>
+
+
+
+
+</div>
+
+
+
+
+
+{% endblock %}
+
