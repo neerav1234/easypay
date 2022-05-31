@@ -1,7 +1,7 @@
 # Payment Gateway using MVC Framework in PHP.
 Prerequisites: Lamp stack must be installed beforehand and functional phpmyadmin.
 
- Clone this repository by `git clone https://github.com/ZainulNiaz/PaymentGateway.git`
+ Clone this repository by `git clone https://github.com/neerav1234/easypay`
  `cd PaymentGateway`
  
  
